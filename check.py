@@ -27,7 +27,7 @@ g = s.get(link, headers=head)
 
 lists = open(lists, 'r')
 while True:
-        email = lists.readline().replace("\n", "")
+        email = lists.readline().replace('\n','')
 
         if not email: 
                 break
@@ -37,10 +37,10 @@ while True:
 
         if "You indicated you are a new customer, but an account already exists with the e-mail" in postmethod:
 
-                print("LIVE AMAZON => "+email+" BY #MOHAMED SAMY")
-                Live.write("LIVE AMAZON => "+email+" BY #MOHAMED SAMY")
+                print("LIVE AMAZON => "+email+" | BY #MOHAMED SAMY")
+                Live.write("LIVE AMAZON => "+email+" | BY #MOHAMED SAMY \n")
         else:
-                print("DIE AMAZON => "+email+" BY #MOHAMED SAMY")
-                Die.write("DIE AMAZON => "+email+" BY #MOHAMED SAMY")
+                print("DIE AMAZON => "+email+" | BY #MOHAMED SAMY")
+                Die.write("DIE AMAZON => "+email+" | BY #MOHAMED SAMY \n" )
 print("#" * 70)
 print("Your Live Emails Saved In AmazonLive.txt")
