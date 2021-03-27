@@ -1,8 +1,7 @@
 # Amazon-Valid-Email-Checker
 # Install Python 3 
 # Open Cmd 
-# Write This Commend Line " pip install requests "
-# Write This Commend Line " pip install termcolor "
+Write This Commend Line " pip install requests "
 # Cd Your Path File
 # Run => Write check.py
 # if you not have path python
